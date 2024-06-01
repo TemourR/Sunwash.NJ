@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+#navigation {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    font-size: 20px;
+    background-color: whitesmoke;
+
+}
+
+
+
+header {
+    background-color: goldenrod;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size:60px;
+}
+
+.subheading {
+    font-size: 30px;
+    margin: 16px 0px 24px 0;
+}
+
+button {
+    background-color: rgb(215, 191, 55);
+    color: aliceblue;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 300px;
+}
+
+ul { 
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 18px;
+}
+
+
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 
+
+
+SERVICE SECTION
+
+
+*/
+
+
+#service {
+    margin: 100px ;
+    background-color: aquamarine;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__img--wrapper {
+    width: 40%;
+
+}
+
+img {
+    width: 80%;
+
+}
+
+.section__description--modifier {
+    width: 100%;
+}
+
+.services__img--wrapper, 
+.section__description--modifier {
+    padding: 0 24px;
+
+}
+
+
+.section__description--para {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+
+}
+
+.section__description--para1 {
+    font-weight: bold;
+    font-size: 20px;
+}   
+
+.section__description--para2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
